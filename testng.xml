@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Automation Suite" thread-count="3">
+
+    <test name="TestSuit1" >
+        <classes>
+            <class name="UserRegistration" />
+        </classes>
+    </test>
+
+    <test name="TestSuit2" >
+        <classes>
+            <class name="Login" />
+        </classes>
+    </test>
+
+    <test name="TestSuit3">
+        <classes>
+            <class name="MyCart" />
+        </classes>
+    </test>
+
+</suite>
